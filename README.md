@@ -1,7 +1,7 @@
 ubuntu1404x64-simple-desktop
 ============================
 
-Link to public vagrant base box using virtualbox provider.  It is Ubuntu 14.04 x64 Desktop with plain GUI.
+Link to public Vagrant base box using virtualbox provider.  It is Ubuntu 14.04 x64 Desktop with plain GUI.  See the file `aws_public_url.txt` for a link to the Vagrant box stored on AWS.  It's ~2.4G, so download from a fast connection.
 
 
 Add box to vagrant
