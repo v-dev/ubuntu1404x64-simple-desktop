@@ -4,7 +4,9 @@ ubuntu1404x64-simple-desktop
 Link to public vagrant base box using virtualbox provider.  It is Ubuntu 14.04 x64 Desktop with plain GUI.
 
 
-== Add box to vagrant ==
+Add box to vagrant
+------------------
+
 Syntax:
 ````
 vagrant box add ADDRESS --name VALUE
