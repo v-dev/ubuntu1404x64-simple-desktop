@@ -28,3 +28,12 @@ Example:
 ````
 vagrant box add package.box --name ubuntu1404x64-simple-desktop
 ````
+
+Using with a Vagrantfile
+------------------------
+After adding the box in the above steps, you can use this as the base box for https://github.com/v-dev/vagrant-devbox
+
+Instead of `config.vm.box = "phusion/ubuntu-14.04-amd64"`, use:
+````
+config.vm.box = "ubuntu1404x64-simple-desktop"
+````
